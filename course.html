@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><!--to be responsive----------------------->
+  <title>Mozarto Website Design -Easy Tutorial</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!------------------------font style for small size screen---------------------------------------------------->
+
+      <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+      <!--font style-->
+      <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|fire-animation">
+            <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+
+          <!-- -------------------------library ----------------------------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <!-------------------------------------------menu-------------------------------------------->
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img class="logo" src="imges/Mozarto.PNG" ></a>
+    <h3 class="logo-text"></h3>
+    <div class="nav-links" id="navLinks">
+       <a class="fa fa-times" onclick="hidemenu()"></a>
+          <ul>
+          <li><a href="index.html"> HOME</a></li>
+          <li><a href="About us.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="Contact1.html">CONTACT</a></li>
+        </ul> 
+      </div>
+      <a class="fa fa-bars"onclick="showmenu()"></a>
+    </nav>
+  <h1>COURSES</h1>
+  </section>
+
+ <!-------------------------------------- course--------------------------------------------->
+ <section class="course">
+  <h1 class="font-effect-shadow-multiple">courses we offer</h1>
+  <p>The courses are below.</p>
+
+  <div class="row">
+    <div class="course-rol">
+      <h3>Graphic Designing</h3>
+      <p>Making website is one of the most creative thing in the world.
+       You just need to learn the various tools for designing and you are good to go.
+      </p>
+    </div>
+      <div class="course-rol">
+      <h3>Video Animation</h3>
+      <p>Making video is one of the most great thing in the world.
+       You just need to learn the various ways of shooting and editing and you are good to go.
+      </p>
+    </div>
+      <div class="course-rol">
+      <h3>Wesit Building</h3>
+      <p>Making website is one of the most incredible thing in the world.
+       You just need to learn HTML,CSS,Javascripts and you are good to go.
+      </p>
+    </div>
+  </div>
+ </section>
+<hr>
+
+     <!--- -------- ------------------------video------------------------------------------------------------>
+   <section class="vid">
+    <div class="Tutorial">
+<h2>Website & Graphic design Tutorials </h2>
+<p>These videos will help and even give you some guilde lines as a beginner</p>
+</div>
+    <video controls width="600px" height="300px">
+        <source src="videos/HTML Tutorial for Beginners_ HTML Crash Course _2021_ ( 480 X 854 ).mp4" type="video/mp4">
+        </video>
+        <video controls width="600px" height="300px">
+        <source src="videos/Make Youtube Thumbnail on Pixellab _fire_ ( 360 X 640 ).mp4" type="video/mp4">
+        </video>
+   </section>
+   <br>
+   <section class="vid">
+    <div class="Tutorial">
+<h2>Website tutorials </h2>
+<p>These videos will help and even give you some guilde lines as a beginner</p>
+</div>
+    
+   </section>
+
+ <!----------------------------------------- Footer----------------------------------------------------->
+
+ <section class="Footer">
+  <h4>About Us</h4>
+  <p>Contact us for more info</p>
+  <div class="icons">
+  <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+     <a href="#" class="fa fa-instagram"></a>
+  </div>
+  <p>Made with  <a href="#" class="fa fa-heart"></a> By Mozarto Tutorials</i></p>
+ </section>
+
+
+
+
+ <!--------------------------------------javascript for toggle menu---------------------------------------->
+ <script type="text/javascript">
+  var x = document.getElementById("navLinks");
+  function showmenu() {
+        navLinks.style.right="0";
+  }
+
+  function hidemenu() {
+        navLinks.style.right="-200px";
+  }
+
+ </script>
+
+</body>
+</html>

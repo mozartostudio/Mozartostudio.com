@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><!--to be responsive-->
+	<title>Mozarto Website Design -Easy Tutorial</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!----------------------------------font style for small size screen----------------------------->
+
+      <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+      <!---------------------------------font style------------------------------------------------------------->
+      <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|fire-animation">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+          <!-- -----------------------Menu icon ---------------------------------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+	<!-------------------------------------------Menu-------------------------------------------->
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img class="logo" src="imges/Mozarto.PNG" ></a>
+		<div class="nav-links" id="navLinks">
+	     <a class="fa fa-times" onclick="hidemenu()"></a>
+          <ul>
+          <li><a href="index.html"> HOME</a></li>
+          <li><a href="About us.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="Contact1.html">CONTACT</a></li>
+        </ul>	
+			</div>
+			<a class="fa fa-bars"onclick="showmenu()"></a>
+		</nav>
+	<h1>About Us</h1>
+	</section>
+
+	<!--------------------------About us ------------------------------------------------------------------->
+<section class="about-us">
+	<div class="row">
+		<div about-col><h1>Mozarto's Studio, Learning Center</h1>
+			<p>This platform is design to teach students who are passionate about IT and realy wamt to earn aliving <br>also we also take orders for professional graphic designs,videos advertising and wesite building.
+			</p>
+			<a href="" class="kk EXPLORE">EXPLORE</a>
+		</div>
+		<div about col>
+			<img class="img" src="imges/about.jpg">
+		</div>
+	</div>
+</section>
+
+	<!--------------------------------------Our team------------------------------------------------------->
+<section>
+<div class="wrapper">
+<h1> Our team</h1>
+<div class="team"> 
+<div class="team_member">
+	<div class="team-img">
+		<img src="imges/m5.jpg" alt="team_member image">
+	</div>
+	<h4>Adjorlolo Moses</h4>
+	<p class="roow">IT Student</p>
+	<p>Moses is an IT student at Akatsi college of education.He also enroll in<br> graphic designing course head by<strong> Digitex</strong>,a graphic design institude at Nigerial</p>
+</div>
+
+<div class="team_member">
+		<div class="team-img">
+		<img src="imges/ernest.jpg" alt="team_member image">
+	</div>
+	<h4>Ahli Ernest</h4>
+	<p class="roow">Visual Art Student</p>
+	<p>Ernest is an a visual art student at Akatsi college of education.He also enroll in<br> graphic designing course head by<strong> Digitex</strong>,a graphic design institude at Nigerial</p>
+</div>
+</div>
+</section>
+  
+
+ <!--- -----------------------------------------------Footer------------------------------------------------>
+
+ <section class="Footer">
+ 	<h4>About Us</h4>
+ 	<p>Contact us for more info</p>
+ 	<div class="icons">
+ 	<a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+     <a href="#" class="fa fa-instagram"></a>
+ 	</div>
+ 	<p>Made with  <a href="#" class="fa fa-heart"></a> By Mozarto Tutorials</i></p>
+ </section>
+ 
+  <!--------------------------javascript for toggle menu--------------------------------------->
+ <script type="text/javascript">
+ 	var x = document.getElementById("navLinks");
+ 	function showmenu() {
+        navLinks.style.right="0";
+  }
+
+	function hidemenu() {
+        navLinks.style.right="-200px";
+  }
+
+ </script>
+</body>
+</html>
